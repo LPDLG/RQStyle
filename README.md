@@ -145,12 +145,6 @@ Only the 60 source images are stored, without duplicated inputs, generated
 outputs, metrics, or selection manifests. Images retain their original bytes;
 only their filenames are simplified.
 
-This is the final **model-aware, post-selected diagnostic subset** used in the
-COCO-to-WikiArt comparisons (TASK241/TASK242). It is **not** StyleID's official
-800-pair set, a random sample, or an unbiased benchmark. Its selection used
-model outputs; results on it should not be presented as evidence of general
-superiority. It is separate from the fresh random qualitative example pools.
-
 ## Offline Use
 
 Both entry points accept `--base-model`, `--vae`, `--image-encoder`,
